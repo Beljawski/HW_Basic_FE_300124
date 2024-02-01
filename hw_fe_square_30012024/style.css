@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+}
+
+
+.square {
+    width: 200px;
+    aspect-ratio: 1;
+    position: relative; 
+   
+}
+.red {
+    background: red;
+   
+    }
+.blue  {
+    background: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+    }
+.green {
+    background: green; 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+ }
+.green:hover {
+    transform: scale(1.1) rotate(45deg);
+}
+
+
